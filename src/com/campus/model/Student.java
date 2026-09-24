@@ -75,7 +75,7 @@ public class Student {
         System.out.print("Marks: ");
         
     }
-       public void displaystudenrinfo(boolean showmarks){
+    public void displayStudentInfo(boolean showmarks){
         displayStudentDetails();
         if(showmarks){
             System.out.print("Marks:" +java.util.Arrays.toString(marks));
